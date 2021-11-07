@@ -16,7 +16,7 @@ stdin.on('data', (data) => {
   } else {
     writeableStream.write(data);
     stdout.write('\nNeed mo-o-o-ore information!\n');
-    stdout.write('CTRL + C to exit\n');
+    stdout.write('or CTRL + C to exit\n');
   }
 });
 
